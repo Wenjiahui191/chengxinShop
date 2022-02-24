@@ -1,24 +1,19 @@
-# app
+# 关于橙心爱购前台的功能实现
+## 1、开发思想及技术
+本项目基于vue cli4.5及vue2.6版本下开发，项目采用工程化、组件化、模块化等思想
+项目核心技术的实现包括对axios、vuex、vue-router的熟练使用
+## 2、项目结构
+项目将组件分为静态组件和路由组建，统一管理api接口及ajax请求，component为静态组件像Header、Footer...
+pages为路由组建文件夹，store为vuex仓库文件夹，router为vue-router文件夹
+## 3、实现的主要功能有哪些
+1.登录
+2.注册
+3.搜索商品
+4.加入购物车
+5.结算并支付
+6.个人中心/订单查询
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+测试账号：13700000000 111111
+也可自行注册账号
+项目上线网址：http://81.68.228.211
+在此感谢尚硅谷的宝藏教学和优秀的老师
